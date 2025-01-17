@@ -41,13 +41,13 @@ void fourth_pyramid(void)
 void fifth_pyramid(void)
 {int star_count = 1;
 for(int layer =0; layer<5;layer++)
-    {for(int blank=0;blank<(8-star_count)/2;blank++)
+    {for(int blank=0;blank<(10-star_count)/2;blank++)
         {printf(" "); }
     
      for(int star=0;star<star_count;star++)
         {printf("*"); }
 
-     for(int blank=0;blank<(8-star_count)/2;blank++)
+     for(int blank=0;blank<(10-star_count)/2;blank++)
         {printf(" "); }
 
      printf("\n");
