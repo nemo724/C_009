@@ -61,7 +61,7 @@ for(int layer =0; layer<5;layer++)
     {for(int blank=0;blank<blank_count/2;blank++)
         {printf(" "); }
     
-     for(int star=0;star<9-layer;star++)
+     for(int star=0;star<9-(2*layer);star++)
         {printf("*"); }
 
      for(int blank=0;blank<blank_count/2;blank++)
