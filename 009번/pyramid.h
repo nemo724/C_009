@@ -13,27 +13,4 @@ void sixth_pyrmaid(void);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif
