@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="a009_pyramid.c" />
+    <ClCompile Include="pyramid.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pyramid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

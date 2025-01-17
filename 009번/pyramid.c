@@ -33,8 +33,9 @@ void fourth_pyramid(void)
     
      for(int star = 0; star < layer+1;star++)
         {printf("*"); }
+     printf("\n");
     }
-    printf("\n");
+    
 }
 
 void fifth_pyramid(void)
