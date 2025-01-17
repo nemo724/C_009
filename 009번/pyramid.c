@@ -25,3 +25,14 @@ void third_pyramid(void)
         printf("\n");
     }
 }
+
+void fourth_pyramid(void)
+{for (int layer = 0; layer < 5; layer++)
+    {for(int blank = 0 ; blank < 5 -(layer+1);blank++)
+        {printf(" "); }
+    
+     for(int star = 0; star < layer+1;star++)
+        {printf("*"); }
+    }
+    printf("\n");
+}
