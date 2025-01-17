@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-
+void first_pyramid(void);
 
 
 
