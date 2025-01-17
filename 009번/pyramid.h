@@ -5,7 +5,7 @@
 
 void first_pyramid(void);
 void secont_pyramid(void);
-
+void third_pyramid(void);
 
 
 
