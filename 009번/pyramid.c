@@ -53,3 +53,20 @@ for(int layer =0; layer<5;layer++)
      star_count += 2;
      }
 }
+
+void sixth_pyramid(void)
+{int blank_count = 0 ;
+for(int layer =0; layer<5;layer++)
+    {for(int blank=0;blank<blank_count/2;blank++)
+        {printf(" "); }
+    
+     for(int star=0;star<9-layer;star++)
+        {printf("*"); }
+
+     for(int blank=0;blank<blank_count/2;blank++)
+        {printf(" "); }
+
+     printf("\n");
+     blank_count += 2;
+     }
+}
