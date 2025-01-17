@@ -18,6 +18,4 @@ printf("\n");
 
 sixth_pyramid();
 printf("\n");
-
-
 }
